@@ -11,6 +11,3 @@ if ss in s:
     print("ss is available in s")
 if ss not in s :
     print("ss is not available in s")
-
-
-
