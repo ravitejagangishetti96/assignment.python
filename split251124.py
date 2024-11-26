@@ -10,8 +10,4 @@ submassage=massage.split("")
 print(len(submassage))
 print(submassage)
 
-#join
-print("---------------------")
-joinmassage=" ".join(massage)
-print(len(joinmassage))
-print(joinmassage)
+
