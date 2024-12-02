@@ -1,15 +1,18 @@
-s=input("enter the input:")
-alphabet_count = 0
-digit_count = 0
-special_char_count = 0
+#list 
+#insert >>add element of a specified position:
 
-for char in s:
-    if char.isalpha():  
-            alphabet_count += 1
-            print(f"Alphabets: ")
-    elif char.isdigit():  
-            digit_count += 1
-            print(f"Digits: ")
-    else:  
-            special_char_count += 1
-            print(f"Special Characters:")
+l =[10,20,30,40,60,70,90]
+
+l.insert(4,50)
+print(l)
+
+
+#insert >>adding one or more  elements of a specified position:
+print("-------------------------")
+
+l =[10,20,30,40,60,70,90]
+
+l.insert(4,50)
+l.insert(7,80)
+l.insert(9,100)
+print(l)
