@@ -1,16 +1,28 @@
-#list
+#output = "do tahw uoy tnaw"
+#output = "want you what do"
 
-l=eval(input("enter your list:"))
-print(l[0])
-print(type(l))
+s="do what you want"
+print(s[::-1])
 
-print(type(l[1]))
+#using slicing
+print("----------------------------")
 
-#list without using eval
+s="do what you want"
 
-num=input("enter your list:")
-l=num.split('1')
-print(l[0])
-print(type(l))
+s1 =" ".join(s.split()[::-1]) 
+print(s1)
 
-print(type(l[1]))
+print("-------------------------")
+s = "do what you want"
+n1 = s.split()[::-1] 
+rs = ""
+
+for n in n1:
+    rs += n + " "
+
+rs = rs.strip()
+
+print(rs)
+
+
+
